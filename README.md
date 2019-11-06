@@ -10,8 +10,8 @@ We are particularly interested in the following:
 In **javascript** / **typescript** write a class that implements the following interface:
 
 ```typescript
-interface RomanNumerlConverter {
-  convert(n: number): string;
+interface RomanNumeralConverter {
+  convert(n: number): string
 }
 ```
 
@@ -28,7 +28,9 @@ For example, see the following sample inputs and outputs:
 | 200 | “CC” |
 | 3999 | “MMMCMXCIX” |
 
-> Caveat:Only support numbers between 1 and 3999
+> Caveat: Only support numbers between 1 and 3999
+
+## Reference Table
 
 | Symbol | Value |
 |---|---:|
@@ -40,6 +42,7 @@ For example, see the following sample inputs and outputs:
 |D|500|
 |M|1000|
 
-The project is pre-configured to use `jest` but you may use any testing framework you like.
+## Development notes
 
-To use the stock jest testing setup you can run `yarn test` to initiate jest in watch mode.
+- The project is pre-configured to use `jest` but you may use any testing framework you like.
+- To use the stock jest testing setup you can run `yarn test` to initiate jest in watch mode.
