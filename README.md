@@ -11,7 +11,7 @@ In **javascript** / **typescript** write a class that implements the following i
 
 ```typescript
 interface RomanNumerlConverter {
-  string convert(n: number);
+  convert(n: number): string;
 }
 ```
 
