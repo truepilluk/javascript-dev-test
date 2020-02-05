@@ -3,7 +3,7 @@ interface RomanNumeralConverter {
 }
 
 export class RomanNumerals implements RomanNumeralConverter {
-  convert(num?: number) {
+  convert(num: number) {
     return ''
   }
 }
