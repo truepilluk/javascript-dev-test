@@ -19,8 +19,13 @@ For example, see the following sample inputs and outputs:
 
 | In | Out |
 |---:|:---:|
-| 1 | “I” |
-| 5 | “V” |
+| 1 | “I”  |
+| 2 | "II" |
+| 3 | "III"|
+| 4 | "IV" |
+| 5 | “V”  |
+| 6 | “VI” |
+| 9 | “IX” |
 | 10 | “X” |
 | 20 | “XX” |
 | 60 | “LX” |
