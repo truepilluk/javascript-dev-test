@@ -3,6 +3,9 @@
     "sourceRoot": "src",
     "inlineSourceMap": true,
     "outDir": "dist",
-    "target": "ES2020"
+    "target": "ES2020",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "node"
   }
 }

@@ -1,10 +1,5 @@
+import { Session } from "./Session";
 import { User } from "./User";
-
-interface Session {
-  id: number,
-  user: User,
-  created: Date,
-}
 
 export class FriendFinderApp {
   users: User[];
