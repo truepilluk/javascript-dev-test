@@ -14,7 +14,7 @@ The initial requirements for this app are as follows:
 2) The ability to find other users with similar likes. The findFriends function should return
 all Users who match the complete list of likes provided:
 
-- If the session is no longer valid (the creation date is incorrect) an error of "Invalid Session" should ne thrown.
+- If the session is no longer valid (the creation date is incorrect) an error of "Invalid Session" should be thrown.
 - If no users match all likes, an empty array should be returned.
 - Likes should be considered to match even if the case does not match e.g. "food" matches with "FOOD", and "Food" etc.
 
